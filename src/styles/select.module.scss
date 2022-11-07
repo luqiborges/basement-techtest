@@ -1,0 +1,46 @@
+.select {
+  background-color: #121214;
+  color: #F3F4F6;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+
+  &:focus{
+    border: 0.15rem solid #9BE1FB;
+  }
+}
+
+.selectError {
+  background-color: #121214;
+  color: #F3F4F6;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0.15rem solid #FF6961;
+  outline: none;
+}
+
+.errorMessage {
+  margin-top: 0.25rem;
+  font-family: Inter, 'sans-serif';
+  font-weight: 400;
+  color:#FF6961;
+  font-size: 0.85rem;
+}
+
+.errorContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: -1rem;
+}

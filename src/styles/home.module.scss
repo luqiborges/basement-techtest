@@ -1,0 +1,73 @@
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.appTitle{
+  margin-top: 8rem; 
+  color: #E1E1E6; 
+  font-size: 2rem;
+  font-family: Inter, 'sans-serif';
+  line-height: 2.5rem; 
+  font-weight: 700;   
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column; 
+  padding: 2rem;
+  margin-top: 2rem; 
+  background-color: #202024;
+  align-items: center; 
+  border-width: 0.15rem;
+  border-radius: 0.25rem;
+  border-color: #9BE1FB;
+  gap: 1rem; 
+}
+
+.playerContainer {
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+
+  .playerLabel {
+    font-family: Inter, 'sans-serif';
+    color: #E1E1E6; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+  }
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 0 1rem;
+  width: 100%;
+
+  .categoryLabel {
+    font-family: Inter, 'sans-serif';
+    color: #E1E1E6; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+  }
+}
+
+.button {
+  font-size: 1.25rem;
+  font-family: Inter, 'sans-serif';
+  line-height: 1.75rem; 
+  font-weight: 700; 
+  background-color: #9BE1FB;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  outline: none;
+  height: 2.5rem; 
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: #81D8F7;
+  }
+}

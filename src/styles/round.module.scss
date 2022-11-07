@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appTitle{
+  margin-top: 8rem; 
+  color: #E1E1E6; 
+  font-size: 2rem;
+  line-height: 2.5rem; 
+  font-weight: 700;   
+}
+
+.quizContainer {
+  max-width: 50%;
+  background-color: #202024;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-width: 0.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 2rem;
+  border: 0.15rem solid #9BE1FB;
+  border-radius: 0.25rem;
+}
+
+.quizHeading {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+
+  h2 {
+    color: #E1E1E6; 
+  }
+}
+
+.quizDescription {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+
+  h2 {
+    color: #E1E1E6; 
+  }
+}
+
+.quizButtons {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 1rem;
+
+  button {
+    height: 2rem;
+    background-color: #121214;
+    border-radius: 0.25rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: Inter, 'sans-serif';
+    color: #E1E1E6;
+
+    &:hover{
+      border: 0.15rem solid #9BE1FB;
+    }
+
+    &:focus{
+      background-color: #9BE1FB;
+      color: #121214;
+    }
+  }
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.endModalContainer {
+  display: flex;
+  min-width: 20%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+
+  border-radius: 0.25rem;
+  border-color: #9BE1FB;
+  border: 0.15rem solid #9BE1FB;
+  background-color: #202024;
+
+  h2 {
+    font-family: Inter, 'sans-serif';
+    font-weight: 700;
+    color: #E1E1E6;
+  }
+}
+
+.endModalButton {
+  font-size: 1.25rem;
+  font-family: Inter, 'sans-serif';
+  line-height: 1.75rem; 
+  font-weight: 700; 
+  background-color: #9BE1FB;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  outline: none;
+  height: 2.25rem; 
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: #81D8F7;
+  }
+}

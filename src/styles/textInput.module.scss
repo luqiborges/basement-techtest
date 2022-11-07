@@ -1,0 +1,41 @@
+.textInput {
+  background-color: #121214;
+  color: #F3F4F6; 
+  font-size: 1rem;
+  font-weight: 500;
+  border-style: none;
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 2.5rem;
+  outline: none;
+  box-sizing: border-box;
+
+  &:focus{
+    border: 0.15rem solid #9BE1FB;
+  }
+}
+
+.textInputError {
+  background-color: #121214;
+  color: #F3F4F6; 
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0.15rem solid #FF6961;
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 2.5rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.errorMessage {
+  margin-top: 0.25rem;
+  font-family: Inter, 'sans-serif';
+  font-weight: 400;
+  color:#FF6961;
+  font-size: 0.85rem;
+}
