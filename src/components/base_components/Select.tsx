@@ -1,6 +1,6 @@
 import { ReactNode, SelectHTMLAttributes } from 'react';
 
-import styles from '../styles/select.module.scss';
+import styles from '../../styles/select.module.scss';
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement>{
   isAnyOptionSelected: boolean;

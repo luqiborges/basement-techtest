@@ -1,6 +1,6 @@
 import { InputHTMLAttributes } from 'react';
 
-import styles from '../styles/textInput.module.scss';
+import styles from '../../styles/textInput.module.scss';
 
 interface TextInputProps extends InputHTMLAttributes<HTMLInputElement>{
   isInputFilled: boolean;
